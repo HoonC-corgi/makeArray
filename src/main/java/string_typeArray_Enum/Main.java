@@ -2,7 +2,6 @@ package string_typeArray_Enum;
 
 public class Main {
     enum Week {월, 화, 수, 목, 금, 토, 일}
-
     public static void main(String[] args) {
 
         for(Week day : Week.values())
