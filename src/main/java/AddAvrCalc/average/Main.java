@@ -16,7 +16,8 @@ public class Main {
         }
         //  intArray의 크기만큼 수를 입력 받아 배열에 채움
         for(int i=0; i<intArray.length; i++) {
-            sum += intArray[i]; // 배열의 각 값을 Sum 변수에 반복 저장하여 합을 구함
+            sum += intArray[i];
+            // 배열의 각 값을 Sum 변수에 반복 저장하여 합을 구함
         }
 
         System.out.println("평균은 " + (double)sum/intArray.length);   // 평균
