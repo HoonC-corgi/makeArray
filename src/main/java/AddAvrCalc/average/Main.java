@@ -19,6 +19,7 @@ public class Main {
             sum += intArray[i];
             // 배열의 각 값을 Sum 변수에 반복 저장하여 합을 구함
         }
+
         System.out.println("평균은 " + (double)sum/intArray.length);   // 평균
         scanner.close();
     }
