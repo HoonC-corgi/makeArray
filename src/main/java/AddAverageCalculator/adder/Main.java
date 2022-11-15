@@ -1,4 +1,4 @@
-package calculator.adder;
+package AddAverageCalculator.adder;
 
 import java.util.Scanner;
 
