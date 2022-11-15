@@ -14,8 +14,7 @@ public class Main {
         }
 
         int sum = 0;  // n 배열의 합을 구할 변수 선언
-        for (int k : array) {
-            // 배열 array의 값들을 k에 각각 담음
+        for (int k : array) {   // 배열 array의 값들을 k에 각각 담음
             System.out.print(k + "");  // k를 각각 프린트함
             sum += k;  // sum에 k를 반복으로 쌓아 합을 구함
         }
