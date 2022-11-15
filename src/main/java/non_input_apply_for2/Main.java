@@ -16,6 +16,7 @@ public class Main {
         for (int x : intArray) {
             System.out.println(x);
         }
+
         int intArray2[] = makeArray();
         intArray2[0] = 2000000;
 
