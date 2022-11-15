@@ -10,7 +10,6 @@ public class Main {
         for(int x: intArray) {
             System.out.print(x);
         }
-
         int max = intArray[0];
         for(int x: intArray) {
             if(x>max) {
